@@ -82,17 +82,17 @@ button.addEventListener('click', scrollDown)
 // Код, который меняет тему
 function change_theme() {
     let header = document.querySelector('header')
-    if (current_background == 'url(/Users/dasaevasophia/Desktop/libbook/img/dark_picture.jpeg)') {
-        current_background = 'url(/Users/dasaevasophia/Desktop/libbook/img/light_picture.jpeg)'
+    if (current_background == 'url(../img/dark_picture.jpeg)') {
+        current_background = 'url(../img/light_picture.jpeg)'
     } else {
-        current_background = 'url(/Users/dasaevasophia/Desktop/libbook/img/dark_picture.jpeg)'
+        current_background = 'url(../img/dark_picture.jpeg)'
     }
     header.style.background = current_background
     header.style.backgroundSize = 'cover'
  }
   
  let change_theme_button = document.querySelector('.switch-theme-button')
- let current_background = 'url(/Users/dasaevasophia/Desktop/libbook/img/dark_picture.jpeg)'
+ let current_background = 'url(../img/dark_picture.jpeg)'
  change_theme_button.addEventListener('click', change_theme)
 
 // Подсчет стоимости билета
