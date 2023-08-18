@@ -8,7 +8,7 @@ starButtons.forEach(function(starButton) {
         if (currentstar.includes('lightstar.png')) {
             starButton.style.backgroundImage = 'url(../img/darkstar.png)';
         } else {
-            starButton.style.backgroundImage = 'url(../lightstar.png)';
+            starButton.style.backgroundImage = 'url(../img/lightstar.png)';
         }
     });
 });
