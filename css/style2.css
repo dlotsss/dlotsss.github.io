@@ -75,7 +75,7 @@ body{
 }
 
 .star-btn { 
-    background: url(/Users/dasaevasophia/Desktop/libbook/img/darkstar.png);
+    background: url(../img/darkstar.png);
     width: 59px; 
     height: 59px; 
     position: absolute; 
