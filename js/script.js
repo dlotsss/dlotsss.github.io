@@ -1,18 +1,30 @@
 // Пожалуйста, не меняй код ниже. Он необходим для правильной настройки позиционирования элементов :)
-let team1 = document.querySelector('.team1')
-let team2 = document.querySelector('.team2')
-let team3 = document.querySelector('.team3')
-let height = Math.max(parseInt(getComputedStyle(team1).getPropertyValue('height')), parseInt(getComputedStyle(team2).getPropertyValue('height')), parseInt(getComputedStyle(team3).getPropertyValue('height')))
-team1.style.height = `${height}px`
-team2.style.height = `${height}px`
-team3.style.height = `${height}px`
+let team1 = document.querySelector('.team1');
+let team2 = document.querySelector('.team2');
+let team3 = document.querySelector('.team3');
+
+let height = Math.max(
+    parseFloat(getComputedStyle(team1).height),
+    parseFloat(getComputedStyle(team2).height),
+    parseFloat(getComputedStyle(team3).height)
+);
+
+team1.style.height = `${height}px`;
+team2.style.height = `${height}px`;
+team3.style.height = `${height}px`;
+
+let change_theme_button = document.querySelector('.nav-item.switch-theme-button')
+change_theme_button.addEventListener('click', function() {
+    document.body.header.toggle('dark-theme');
+})
 
 function scrollDown() {
-    window.scrollTo({top: window.innerHeight, behavior: 'smooth' });
+    window.scrollTo({ top: window.innerHeight, behavior: 'smooth' });
 }
 
-let button = document.querySelector('.arrow-next')
-button.addEventListener('click', scrollDown)
+let button = document.querySelector('.arrow-next');
+button.addEventListener('click', scrollDown);
+
 
 // Код, который нужно исправить
 // let item_name_objects = document.querySelectorAll('.merch-item-name')
@@ -80,20 +92,20 @@ button.addEventListener('click', scrollDown)
 
 
 // Код, который меняет тему
-function change_theme() {
-    let header = document.querySelector('header')
-    if (current_background == 'url(../img/dark_picture.jpeg)') {
-        current_background = 'url(../img/light_picture.jpeg)'
-    } else {
-        current_background = 'url(../img/dark_picture.jpeg)'
-    }
-    header.style.background = current_background
-    header.style.backgroundSize = 'cover'
- }
+// function change_theme() {
+//     let header = document.querySelector('header')
+//     if (current_background == 'url(../img/dark_picture.jpeg)') {
+//         current_background = 'url(../img/light_picture.jpeg)'
+//     } else {
+//         current_background = 'url(../img/dark_picture.jpeg)'
+//     }
+//     header.style.background = current_background
+//     header.style.backgroundSize = 'cover'
+//  }
   
- let change_theme_button = document.querySelector('.switch-theme-button')
- let current_background = 'url(../img/dark_picture.jpeg)'
- change_theme_button.addEventListener('click', change_theme)
+//  let change_theme_button = document.querySelector('.switch-theme-button')
+//  let current_background = 'url(../img/dark_picture.jpeg)'
+//  change_theme_button.addEventListener('click', change_theme)
 
 // Подсчет стоимости билета
 function calc_price() {
