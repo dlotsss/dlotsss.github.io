@@ -18,3 +18,6 @@ Libbook is an innovative online platform designed to bridge the gap between **em
  cd libbook
 ```
 
+### **2. Open in Browser**
+Simply open `index.html` in your favorite browser to start using the platform.
+
