@@ -21,3 +21,9 @@ Libbook is an innovative online platform designed to bridge the gap between **em
 ### **2. Open in Browser**
 Simply open `index.html` in your favorite browser to start using the platform.
 
+### **3. Run a Local Server (Optional)**
+For enhanced functionality, you can serve the project locally:
+```sh
+ python -m http.server 8000
+```
+Then open `http://localhost:8000/` in your web browser.
