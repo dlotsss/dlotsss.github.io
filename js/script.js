@@ -15,7 +15,8 @@ team3.style.height = `${height}px`;
 
 let change_theme_button = document.querySelector('.nav-item.switch-theme-button')
 change_theme_button.addEventListener('click', function() {
-    document.body.header.toggle('dark-theme');
+    myHead = document.getElementById("header");
+    myHead.classList.toggle('dark-theme');
 })
 
 function scrollDown() {
@@ -26,7 +27,7 @@ let button = document.querySelector('.arrow-next');
 button.addEventListener('click', scrollDown);
 
 
-// Код, который нужно исправить
+//Код, который нужно исправить
 // let item_name_objects = document.querySelectorAll('.merch-item-name')
 // let item_names = ['Джоан Роулинг', 'Стивен Кинг', 'Лев Толстой', 'Агата Кристи']
 // for (let i = 0; i < item_name_objects.length; i += 1) {
@@ -91,7 +92,7 @@ button.addEventListener('click', scrollDown);
 
 
 
-// Код, который меняет тему
+//Код, который меняет тему
 // function change_theme() {
 //     let header = document.querySelector('header')
 //     if (current_background == 'url(../img/dark_picture.jpeg)') {
