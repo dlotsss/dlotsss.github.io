@@ -94,3 +94,10 @@ The website's styling is defined in `style.css` and `style2.css`.
 - **Background color:** `#D1BBAA`
 - **Font:** Montserrat (`Google Fonts`)
 - **Interactive elements:** Buttons, hover effects, and theme switching
+
+## **Future Improvements**
+🚀 **User Login System** – Allow users to create accounts and save books permanently.
+
+📚 **Advanced Search & Filters** – Improve book discovery features.
+
+🎨 **Customizable UI** – More themes and accessibility options.
