@@ -11,3 +11,10 @@ Libbook is an innovative online platform designed to bridge the gap between **em
 - 🌙 **Theme Toggle** – Switch between light and dark themes.
 - 🔍 **Search Functionality** – Quickly find books by title or author.
 
+## **Installation & Setup**
+### **1. Clone the Repository**
+```sh
+ git clone https://github.com/yourusername/libbook.git
+ cd libbook
+```
+
