@@ -89,3 +89,8 @@ starButtons.forEach(function(starButton) {
     });
 });
 ```
+## **Styling**
+The website's styling is defined in `style.css` and `style2.css`.
+- **Background color:** `#D1BBAA`
+- **Font:** Montserrat (`Google Fonts`)
+- **Interactive elements:** Buttons, hover effects, and theme switching
