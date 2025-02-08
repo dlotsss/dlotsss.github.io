@@ -1,13 +1,1 @@
-# Ignore all HTML files
-*.html
 
-# Ignore all CSS files
-*.css
-
-# Ignore the entire "css" directory and its contents
-css/
-
-# Optional: Ignore CSS/HTML directories (e.g., "styles/" or "public/")
-/css/
-/styles/
-/public/
