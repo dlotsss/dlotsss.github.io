@@ -42,3 +42,50 @@ Libbook/
 │── img/                # Contains images and assets
 │── README.md           # Documentation
 ```
+## **Code Breakdown**
+### **1. Navigation Bar (index.html)**
+Provides easy access to different sections of the website.
+```html
+<nav>
+    <div class='nav-item' onclick="document.getElementById('about').scrollIntoView({behavior: 'smooth'});">Проект</div>
+    <div class='nav-item' onclick="document.getElementById('team').scrollIntoView({behavior: 'smooth'});">Команда</div>
+    <div class='nav-item' onclick="document.getElementById('merch').scrollIntoView({behavior: 'smooth'});">Топ-писатели</div>
+    <div class='nav-item' onclick="document.getElementById('submit').scrollIntoView({behavior: 'smooth'});">Заявка</div>
+    <div class='nav-item'> <a href = "favorites.html">Избранные </a> </div>
+    <div class='nav-item switch-theme-button'>Сменить тему</div>
+</nav>
+```
+
+### **2. Favorites Page (favorites.html)**
+Displays user-selected books for quick access.
+```html
+<section class='section1'>
+    <p class="title title1"> Гарри Поттер и философский камень </p>
+    <p class="author author1"> Джоан Роулинг </p>
+    <p class="about first"> История о мальчике, который узнал, что он волшебник...</p>
+    <button> читать... </button>
+</section>
+```
+
+### **3. Theme Toggle Functionality (script.js)**
+Allows users to switch between light and dark modes.
+```js
+let change_theme_button = document.querySelector('.nav-item.switch-theme-button');
+change_theme_button.addEventListener('click', function() {
+    document.getElementById("header").classList.toggle('dark-theme');
+});
+```
+
+### **4. Managing Favorite Books (favorites.js)**
+Handles toggling favorite books.
+```js
+let starButtons = document.querySelectorAll('.star-btn');
+starButtons.forEach(function(starButton) {
+    starButton.addEventListener('click', function() {
+        let currentstar = starButton.style.backgroundImage;
+        starButton.style.backgroundImage = currentstar.includes('lightstar.png')
+            ? 'url(../img/darkstar.png)'
+            : 'url(../img/lightstar.png)';
+    });
+});
+```
