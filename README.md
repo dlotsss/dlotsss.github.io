@@ -101,3 +101,10 @@ The website's styling is defined in `style.css` and `style2.css`.
 📚 **Advanced Search & Filters** – Improve book discovery features.
 
 🎨 **Customizable UI** – More themes and accessibility options.
+
+
+## **License**
+This project is **open-source** and free for personal and non-commercial use.
+
+## **Author**
+Developed by **Sofiya Dassayeva** and **LibBook team**.
