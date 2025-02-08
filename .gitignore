@@ -1,0 +1,10 @@
+# Ignore all HTML files
+*.html
+
+# Ignore all CSS files
+*.css
+
+# Optional: Ignore CSS/HTML directories (e.g., "styles/" or "public/")
+/css/
+/styles/
+/public/
