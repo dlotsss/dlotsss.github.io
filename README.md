@@ -27,3 +27,18 @@ For enhanced functionality, you can serve the project locally:
  python -m http.server 8000
 ```
 Then open `http://localhost:8000/` in your web browser.
+
+## **Project Structure**
+```
+Libbook/
+│── index.html           # Main webpage
+│── favorites.html       # Favorites section
+│── js/
+│   ├── script.js       # Main JavaScript file for interactivity
+│   ├── favorites.js    # Script for managing favorite books
+│── css/
+│   ├── style.css       # Main styling file
+│   ├── style2.css      # Additional styling for favorites page
+│── img/                # Contains images and assets
+│── README.md           # Documentation
+```
