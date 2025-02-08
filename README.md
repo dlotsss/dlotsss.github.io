@@ -95,7 +95,7 @@ The website's styling is defined in `style.css` and `style2.css`.
 - **Font:** Montserrat (`Google Fonts`)
 - **Interactive elements:** Buttons, hover effects, and theme switching
 
-![Libbook Demo](imgs/demo.gif)
+![Libbook Demo](img/demo.gif)
 
 ## **Future Improvements**
 🚀 **User Login System** – Allow users to create accounts and save books permanently.
