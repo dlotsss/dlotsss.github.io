@@ -96,7 +96,7 @@ The website's styling is defined in `style.css` and `style2.css`.
 - **Interactive elements:** Buttons, hover effects, and theme switching
 
 ![Libbook Demo](img/demo.gif)
-https://dlotsss.github.io/index.html - the website
+https://dlotsss.github.io/Libbook/ - the website
 
 ## **Future Improvements**
 🚀 **User Login System** – Allow users to create accounts and save books permanently.
